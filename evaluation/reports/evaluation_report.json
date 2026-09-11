@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-09-11T17:35:11Z",
+  "sample_size": 100,
+  "finsql_agent": {
+    "total_questions": 100,
+    "sql_execution_accuracy": 99.0,
+    "result_accuracy": 99.0,
+    "schema_retrieval_accuracy": 100.0,
+    "financial_correctness": 99.0,
+    "error_recovery_rate": 87.5,
+    "error_recovery_events": {
+      "opportunities": 8,
+      "succeeded": 7
+    },
+    "average_latency_ms": 178.72,
+    "average_retry_count": 0.1,
+    "failure_taxonomy": {
+      "SCHEMA_RETRIEVAL_FAILURE": 0,
+      "SQL_GENERATION_FAILURE": 0,
+      "SQL_VALIDATION_FAILURE": 0,
+      "SQL_EXECUTION_FAILURE": 1,
+      "FINANCIAL_INTERPRETATION_FAILURE": 0,
+      "RESULT_VERIFICATION_FAILURE": 0,
+      "ANSWER_GENERATION_FAILURE": 0
+    },
+    "category_performance": {
+      "simple_lookup": {
+        "total": 15,
+        "sql_success": 15,
+        "result_accurate": 15
+      },
+      "comparison": {
+        "total": 15,
+        "sql_success": 15,
+        "result_accurate": 15
+      },
+      "aggregation": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 10
+      },
+      "time_series": {
+        "total": 12,
+        "sql_success": 12,
+        "result_accurate": 12
+      },
+      "multi_company": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 10
+      },
+      "calculation": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 10
+      },
+      "financial_domain": {
+        "total": 12,
+        "sql_success": 12,
+        "result_accurate": 12
+      },
+      "ambiguous": {
+        "total": 8,
+        "sql_success": 8,
+        "result_accurate": 8
+      },
+      "error_recovery": {
+        "total": 8,
+        "sql_success": 7,
+        "result_accurate": 7
+      }
+    }
+  },
+  "baseline": {
+    "total_questions": 100,
+    "sql_execution_accuracy": 100.0,
+    "result_accuracy": 60.0,
+    "schema_retrieval_accuracy": 0.0,
+    "financial_correctness": 60.0,
+    "error_recovery_rate": 100.0,
+    "error_recovery_events": {
+      "opportunities": 0,
+      "succeeded": 0
+    },
+    "average_latency_ms": 0.16,
+    "average_retry_count": 0.0,
+    "failure_taxonomy": {
+      "SCHEMA_RETRIEVAL_FAILURE": 100,
+      "SQL_GENERATION_FAILURE": 0,
+      "SQL_VALIDATION_FAILURE": 0,
+      "SQL_EXECUTION_FAILURE": 0,
+      "FINANCIAL_INTERPRETATION_FAILURE": 40,
+      "RESULT_VERIFICATION_FAILURE": 0,
+      "ANSWER_GENERATION_FAILURE": 0
+    },
+    "category_performance": {
+      "simple_lookup": {
+        "total": 15,
+        "sql_success": 15,
+        "result_accurate": 12
+      },
+      "comparison": {
+        "total": 15,
+        "sql_success": 15,
+        "result_accurate": 8
+      },
+      "aggregation": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 10
+      },
+      "time_series": {
+        "total": 12,
+        "sql_success": 12,
+        "result_accurate": 10
+      },
+      "multi_company": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 5
+      },
+      "calculation": {
+        "total": 10,
+        "sql_success": 10,
+        "result_accurate": 0
+      },
+      "financial_domain": {
+        "total": 12,
+        "sql_success": 12,
+        "result_accurate": 6
+      },
+      "ambiguous": {
+        "total": 8,
+        "sql_success": 8,
+        "result_accurate": 6
+      },
+      "error_recovery": {
+        "total": 8,
+        "sql_success": 8,
+        "result_accurate": 3
+      }
+    }
+  },
+  "comparison": {
+    "sql_execution_delta": -1.0,
+    "result_accuracy_delta": 39.0,
+    "financial_correctness_delta": 39.0
+  }
+}

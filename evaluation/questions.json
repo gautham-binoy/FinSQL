@@ -1,0 +1,1097 @@
+{
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "What was Apple's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q002",
+      "question": "What was Apple's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q003",
+      "question": "What was Microsoft's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q004",
+      "question": "What was Microsoft's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q005",
+      "question": "What was Amazon's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q006",
+      "question": "What was Amazon's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q007",
+      "question": "What was Alphabet's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q008",
+      "question": "What was Alphabet's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q009",
+      "question": "What was Tesla's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q010",
+      "question": "What was Tesla's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q011",
+      "question": "What was Nvidia's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q012",
+      "question": "What was Nvidia's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q013",
+      "question": "What was Meta's revenue in 2023?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q014",
+      "question": "What was Meta's net income in 2024?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q015",
+      "question": "What was Apple's operating income in 2022?",
+      "category": "simple_lookup",
+      "difficulty": "easy",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q016",
+      "question": "Compare Apple's revenue with Microsoft's revenue in 2023.",
+      "category": "comparison",
+      "difficulty": "easy",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q017",
+      "question": "Compare Microsoft and Alphabet net income in 2024.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q018",
+      "question": "Compare Nvidia and Tesla revenue in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA",
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q019",
+      "question": "Compare the gross profit of Apple and Amazon in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "GrossProfit",
+      "expected_tickers": [
+        "AAPL",
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q020",
+      "question": "Compare the operating expenses of Meta and Alphabet in 2024.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "OperatingExpenses",
+      "expected_tickers": [
+        "META",
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q021",
+      "question": "Compare total assets between Apple and Microsoft in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "TotalAssets",
+      "expected_tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q022",
+      "question": "Compare total liabilities of Tesla and Amazon in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "TotalLiabilities",
+      "expected_tickers": [
+        "TSLA",
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q023",
+      "question": "Compare cash and cash equivalents between Google and Microsoft in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "CashAndCashEquivalents",
+      "expected_tickers": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q024",
+      "question": "Compare diluted EPS between Apple and Microsoft in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "EarningsPerShare",
+      "expected_tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q025",
+      "question": "Compare Nvidia and Microsoft revenue in 2025.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q026",
+      "question": "Compare Amazon and Walmart style tech revenue in 2023 with Apple.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AMZN",
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q027",
+      "question": "Compare Apple and Tesla net profit in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AAPL",
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q028",
+      "question": "Compare Meta and Tesla operating income in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [
+        "META",
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q029",
+      "question": "Compare Google and Apple gross profit from 2022 to 2024.",
+      "category": "comparison",
+      "difficulty": "hard",
+      "expected_concept": "GrossProfit",
+      "expected_tickers": [
+        "GOOGL",
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q030",
+      "question": "Compare the cash holdings of Meta and Tesla in 2023.",
+      "category": "comparison",
+      "difficulty": "medium",
+      "expected_concept": "CashAndCashEquivalents",
+      "expected_tickers": [
+        "META",
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q031",
+      "question": "What was the average revenue of the companies in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q032",
+      "question": "What was the total revenue across all companies in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q033",
+      "question": "What was the average net income in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q034",
+      "question": "What was the average gross profit of companies in 2024?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "GrossProfit",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q035",
+      "question": "What was the total operating income across all technology firms in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q036",
+      "question": "What was the average cash holding across all companies in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "CashAndCashEquivalents",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q037",
+      "question": "What was the average diluted EPS in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "EarningsPerShare",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q038",
+      "question": "What was the total asset sum for all companies in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "TotalAssets",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q039",
+      "question": "What was the average operating expenses across companies in 2023?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "OperatingExpenses",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q040",
+      "question": "What was the average revenue of technology companies in 2024?",
+      "category": "aggregation",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q041",
+      "question": "Show Apple's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q042",
+      "question": "Show Apple's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q043",
+      "question": "Show Microsoft's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q044",
+      "question": "Show Microsoft's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q045",
+      "question": "Show Nvidia's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q046",
+      "question": "Show Nvidia's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q047",
+      "question": "Show Amazon's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q048",
+      "question": "Show Amazon's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q049",
+      "question": "Show Alphabet's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q050",
+      "question": "Show Alphabet's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q051",
+      "question": "Show Tesla's revenue from 2020 to 2025.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q052",
+      "question": "Show Tesla's net income for the last five fiscal years.",
+      "category": "time_series",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q053",
+      "question": "List revenue for Apple, Microsoft, and Nvidia in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q054",
+      "question": "Compare net income for Meta, Google, and Amazon in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "META",
+        "GOOGL",
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q055",
+      "question": "Show cash and cash equivalents for all Magnificent Seven companies in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "CashAndCashEquivalents",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q056",
+      "question": "Show operating income for Apple, Microsoft, Amazon, and Tesla in 2024.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q057",
+      "question": "Show total debt and liabilities for Tesla, Nvidia, and Meta in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "TotalLiabilities",
+      "expected_tickers": [
+        "TSLA",
+        "NVDA",
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q058",
+      "question": "Show total assets for Alphabet, Amazon, and Apple in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "TotalAssets",
+      "expected_tickers": [
+        "GOOGL",
+        "AMZN",
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q059",
+      "question": "Compare EPS across all tech companies in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "EarningsPerShare",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q060",
+      "question": "Compare gross margin dollars for Nvidia, Microsoft, and Apple in 2024.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "GrossProfit",
+      "expected_tickers": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q061",
+      "question": "List the operating expenses for Meta, Alphabet, and Microsoft in 2023.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "OperatingExpenses",
+      "expected_tickers": [
+        "META",
+        "GOOGL",
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q062",
+      "question": "Compare 2023 revenue of Apple, Microsoft, Amazon, Alphabet, Tesla, Nvidia, and Meta.",
+      "category": "multi_company",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q063",
+      "question": "What was Apple's revenue growth between 2022 and 2023?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q064",
+      "question": "What was Microsoft's revenue growth between 2022 and 2023?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q065",
+      "question": "What was Nvidia's revenue growth between 2023 and 2024?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q066",
+      "question": "Which company had the highest net income margin in 2023?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q067",
+      "question": "Which company had the highest net profit margin in 2024?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q068",
+      "question": "What was Tesla's net income growth between 2021 and 2022?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q069",
+      "question": "What was Amazon's revenue growth between 2023 and 2024?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q070",
+      "question": "Calculate Meta's revenue growth from 2022 to 2023.",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q071",
+      "question": "Calculate Alphabet's operating income growth from 2023 to 2024.",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q072",
+      "question": "Which company had the highest revenue growth percentage between 2022 and 2023?",
+      "category": "calculation",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q073",
+      "question": "Show Apple's consolidated revenue in 2023 excluding restatements.",
+      "category": "financial_domain",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q074",
+      "question": "Show Apple's revenue in 2022 using only restated filings.",
+      "category": "financial_domain",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q075",
+      "question": "What was Apple's standalone parent entity revenue in 2023?",
+      "category": "financial_domain",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q076",
+      "question": "What was Apple's consolidated net income in fiscal year 2023?",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q077",
+      "question": "Show Microsoft's fiscal year 2023 revenue ending in June.",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q078",
+      "question": "Show Nvidia's fiscal year 2024 revenue ending in January.",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q079",
+      "question": "What was Apple's diluted earnings per share in USD in 2023?",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "EarningsPerShare",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q080",
+      "question": "Compare Apple consolidated vs standalone revenue in 2023.",
+      "category": "financial_domain",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q081",
+      "question": "Show non-restated 10-K reported gross profit for Microsoft in 2023.",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "GrossProfit",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q082",
+      "question": "What was Tesla's calendar year 2023 revenue on a consolidated basis?",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q083",
+      "question": "Compare consolidated revenue for Alphabet in FY2023.",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q084",
+      "question": "Show Meta's audited 10-K net income for 2023 without restatements.",
+      "category": "financial_domain",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q085",
+      "question": "Apple revenue",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q086",
+      "question": "Microsoft profit",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q087",
+      "question": "How much did Tesla make in 2023?",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q088",
+      "question": "Nvidia top line last year",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "NVDA"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q089",
+      "question": "Amazon sales trend",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AMZN"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q090",
+      "question": "Who made the most money in 2023?",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q091",
+      "question": "Meta earnings 2024",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "META"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q092",
+      "question": "Tech cash balances",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "expected_concept": "CashAndCashEquivalents",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q093",
+      "question": "Which company had the highest revenue in 2023?",
+      "category": "error_recovery",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q094",
+      "question": "Show Apple revenue where fiscalYear is 2023",
+      "category": "error_recovery",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q095",
+      "question": "Find Apple income from table company",
+      "category": "error_recovery",
+      "difficulty": "hard",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q096",
+      "question": "Give me Apple's revenue and net income for the last five fiscal years.",
+      "category": "error_recovery",
+      "difficulty": "hard",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q097",
+      "question": "Compare Apple revenue and profit in 2023",
+      "category": "error_recovery",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "AAPL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q098",
+      "question": "What was Google's bottom line in 2023?",
+      "category": "error_recovery",
+      "difficulty": "medium",
+      "expected_concept": "NetIncome",
+      "expected_tickers": [
+        "GOOGL"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q099",
+      "question": "Find Microsoft turnover in FY2023",
+      "category": "error_recovery",
+      "difficulty": "medium",
+      "expected_concept": "Revenue",
+      "expected_tickers": [
+        "MSFT"
+      ],
+      "expected_sql": ""
+    },
+    {
+      "id": "Q100",
+      "question": "Tesla EBIT in 2023",
+      "category": "error_recovery",
+      "difficulty": "medium",
+      "expected_concept": "OperatingIncome",
+      "expected_tickers": [
+        "TSLA"
+      ],
+      "expected_sql": ""
+    }
+  ]
+}

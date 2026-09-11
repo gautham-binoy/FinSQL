@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: finsql-agent
+    env: python
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt && cd frontend && npm install && npm run build && cd .. && python scripts/init_db.py && python scripts/seed_data.py && python scripts/build_schema_embeddings.py"
+    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MODEL_NAME
+        value: gemini-2.5-flash
+      - key: EMBEDDING_MODEL
+        value: text-embedding-004
+      - key: DATABASE_URL
+        value: sqlite:///./data/finsql.db
+      - key: DEMO_MODE
+        value: "false"

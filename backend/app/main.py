@@ -40,6 +40,22 @@ app.include_router(schema_router)
 app.include_router(examples_router)
 app.include_router(metrics_router)
 
+@app.get("/api")
+def api_info():
+    return {
+        "name": "FinSQL Agent API",
+        "description": "Agentic Text-to-SQL for Financial Data",
+        "version": "1.0.0",
+        "endpoints": {
+            "query": "/api/query",
+            "health": "/api/health",
+            "schema": "/api/schema",
+            "examples": "/api/examples",
+            "metrics": "/api/metrics",
+            "docs": "/docs"
+        }
+    }
+
 # Mount frontend/dist if built (enables single-service free hosting on Render / Hugging Face)
 from pathlib import Path
 from fastapi.staticfiles import StaticFiles
@@ -50,16 +66,4 @@ if frontend_dist.exists():
 else:
     @app.get("/")
     def root():
-        return {
-            "name": "FinSQL Agent API",
-            "description": "Agentic Text-to-SQL for Financial Data",
-            "version": "1.0.0",
-            "endpoints": {
-                "query": "/api/query",
-                "health": "/api/health",
-                "schema": "/api/schema",
-                "examples": "/api/examples",
-                "metrics": "/api/metrics",
-                "docs": "/docs"
-            }
-        }
+        return api_info()

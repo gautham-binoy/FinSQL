@@ -8,7 +8,10 @@ client = TestClient(app)
 def test_api_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json()["name"] == "FinSQL Agent API"
+
+    api_resp = client.get("/api")
+    assert api_resp.status_code == 200
+    assert api_resp.json()["name"] == "FinSQL Agent API"
 
 
 def test_api_health():
